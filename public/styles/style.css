@@ -1,0 +1,70 @@
+/* ! _______________________________ BASELINE _________________________________ */
+:root{
+    /* * Light theme */
+    --primary-color-light-theme : hsl(248, 97%, 88%);
+    --secondary-color-light-theme : hsl(346, 65%, 51%);
+    /* * Dark theme */
+    --primary-color-dark-theme : hsl(268, 100%, 15%);
+    --secondary-color-dark-theme : hsl(347, 65%, 20%);
+    /* * Colors */
+    --white : hsl(280, 0%, 95%);
+    --black : hsl(280, 0%, 10%);
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 2rem;
+    color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* ! _______________________________ UTILS ____________________________________ */
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+/* ! _______________________________ Navbar _________________________________ */
+nav{
+    background: center no-repeat var(--primary-color-light-theme);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0 1em;
+}
+nav ul li:hover a{
+    color: black;
+    text-shadow: 0px 0px 1px var(--black) ;
+}
+
+/* ! _______________________________ Main _________________________________ */
+main{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+}
+
+/* ! _______________________________ Footer _________________________________ */
+footer{
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding: 1.5em;
+    background-color: var(--primary-color-light-theme);
+    color: var(--white);
+}

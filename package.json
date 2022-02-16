@@ -1,0 +1,21 @@
+{
+  "name": "basic-website",
+  "version": "1.0.0",
+  "description": "This is a basic website made with express and html,css and js",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "Priyanshu Sarkar",
+  "license": "ISC"
+}
